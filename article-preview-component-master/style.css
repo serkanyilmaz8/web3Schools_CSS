@@ -1,0 +1,85 @@
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body{
+  height: 100vh;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  font-family: "Manrope ", sans-serif;
+  background-color: hsl(210, 46%, 95%);
+}
+
+img{
+  max-width: 100%;
+}
+
+.card{
+  overflow: hidden;
+  border-radius: 8px;
+  background-color: white;
+  
+  display: flex;
+
+  width: 768px;
+  box-shadow: 0 5px 10px 10px hsl(210, 46%, 95%);;
+}
+
+.card .card-image,
+.card .card-content{
+  flex: 1;
+}
+
+.card-image img{
+    height: 100%;
+    object-fit: cover;
+}
+
+.card-content{
+  padding: 32px;
+  color: hsl(217, 19%, 35%);
+}
+
+.card-content .card-description{
+  font-size: 14px;
+  margin-bottom: 16px;
+}
+
+.profile-card{
+  display: flex;
+  align-items: center;
+}
+
+.profile-image{
+  overflow: hidden;
+  border-radius: 9999px;
+  width: 48px;
+  height: 48px;
+  margin-right: 16px;
+}
+
+.profile-detail p:last-child{
+  font-size: 12px;
+  color: hsl(212, 23%, 69%);
+}
+
+.profile-icon{
+  margin-left: auto;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  outline: none;
+  border: 0;
+  background-color: hsl(210, 46%, 95%);
+  border-radius: 9999px;
+  padding-bottom: 2px;
+  width: 32px;
+  height: 32px;
+}

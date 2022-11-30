@@ -2,12 +2,13 @@
     margin: 0;
     padding: 0;
 }
+
 body{
-    font-family: 'Red Hat Display', sans-serif;
-    background-color: hsl(225, 100%, 98%);
+    font-family: "Red Hat Display", sans-serif;
+    background-color: hsl(225, 100%, 94%);
     background-image: url(./images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: contain; 
 
     display: flex;
     justify-content: center;
@@ -20,18 +21,14 @@ body{
     background-color: white;
     overflow: hidden;
     border-radius: 16px;
-
     width: 400px;
-    
 }
 
-.image{
-
-    max-width: 100%;;
-
+.card-image img{
+    max-width: 100%;
 }
 
-.detail{
+.card-detail{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -40,7 +37,6 @@ body{
     padding: 36px;
     text-align: center;
     color: hsl(223, 47%, 23%);
-
 }
 
 .plan{
@@ -48,23 +44,25 @@ body{
 
     display: flex;
     align-items: center;
+
     background-color: hsl(225, 100%, 98%);
     border-radius: 8px;
     padding: 8px;
     margin-top: 16px;
     margin-bottom: 16px;
-
 }
 
 .plan .icon{
     margin-right: 12px;
 }
 
-.plan .change-button{
-    margin-left: auto;
-
+.price-title{
+    font-weight: 900;
 }
 
+.plan .change-button{
+    margin-left: auto;
+}
 
 button{
     border: 0;
@@ -84,10 +82,7 @@ button{
     box-shadow: 0 5px 10px 10px hsl(225, 100%, 98%);
 }
 
-.ghost-button {
-    color: hsl(224, 23%, 55%);
-  }
-  
-.price-title {
-    font-weight: 900;
-  }
+.ghost-button{
+    color: hls(224, 23%, 55%);
+}
+
